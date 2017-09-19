@@ -1,15 +1,14 @@
 package model.animal;
 
-import model.accessories.Accessories;
 import model.characteristics.Characteristics;
+import model.food.Food;
 
 public abstract class Animal {
 	
-	public abstract String viewPrice();
 	public abstract String viewAnimal();
-	public abstract void setBreed(Characteristics breed);
-	public abstract Characteristics getBreed();
-	public abstract void setAccessories(Accessories accessories);
-	public abstract Accessories getAccessories();
+	public abstract void setCharacteristics(Characteristics characteristics);
+	public abstract Characteristics getCharacteristics();
+	public abstract void setFood(Food food);
+	public abstract Food getFood();
 	
 }

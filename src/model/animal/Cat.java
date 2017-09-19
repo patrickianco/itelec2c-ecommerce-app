@@ -1,43 +1,35 @@
 package model.animal;
 
-import model.accessories.Accessories;
 import model.characteristics.Characteristics;
+import model.food.Food;
 
 public class Cat extends Animal {
 	
 	Characteristics breed;
-	Accessories accesories;
-	
-	@Override
-	public String viewPrice() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	Food accesories;
 
 	@Override
 	public String viewAnimal() {
-		// TODO Auto-generated method stub
-		return null;
+		return  "Cat";
 	}
 
 	@Override
-	public void setBreed(Characteristics breed) {
-		this.breed = breed;
-		
+	public void setCharacteristics(Characteristics characteristics) {
+		this.breed = characteristics;
 	}
 
 	@Override
-	public Characteristics getBreed() {
+	public Characteristics getCharacteristics() {
 		return this.breed;
 	}
 
 	@Override
-	public void setAccessories(Accessories accessories) {
+	public void setAccessories(Food accessories) {
 		this.accesories = accessories;
 	}
 
 	@Override
-	public Accessories getAccessories() {
+	public Food getAccessories() {
 		return this.accesories;
 	}
 
