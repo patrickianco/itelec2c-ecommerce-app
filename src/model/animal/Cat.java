@@ -1,34 +1,44 @@
 package model.animal;
 
-public class Cat extends Animal {
+import model.accessories.Accessories;
+import model.characteristics.Characteristics;
 
+public class Cat extends Animal {
+	
+	Characteristics breed;
+	Accessories accesories;
+	
 	@Override
 	public String viewPrice() {
-		return "s";
-	}
-
-	@Override
-	public String viewBreed() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public String viewColor() {
+	public String viewAnimal() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public String viewGender() {
-		// TODO Auto-generated method stub
-		return null;
+	public void setBreed(Characteristics breed) {
+		this.breed = breed;
+		
 	}
 
 	@Override
-	public String viewWeight() {
-		// TODO Auto-generated method stub
-		return null;
+	public Characteristics getBreed() {
+		return this.breed;
+	}
+
+	@Override
+	public void setAccessories(Accessories accessories) {
+		this.accesories = accessories;
+	}
+
+	@Override
+	public Accessories getAccessories() {
+		return this.accesories;
 	}
 
 }

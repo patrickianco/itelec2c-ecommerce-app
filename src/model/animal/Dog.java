@@ -1,30 +1,45 @@
 package model.animal;
 
+import model.accessories.Accessories;
+import model.characteristics.Characteristics;
+
 public class Dog extends Animal {
 
+	Characteristics breed;
+	Accessories accesories;
+	
 	@Override
 	public String viewPrice() {
-		return "Php 50,000.00";
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	@Override
-	public String viewBreed() {
-		return "Pembroke Welsh Corgi";
+	public String viewAnimal() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	@Override
-	public String viewColor() {
-		return "Gold";
+	public void setBreed(Characteristics breed) {
+		this.breed = breed;
+		
 	}
 
 	@Override
-	public String viewGender() {
-		return "Male";
+	public Characteristics getBreed() {
+		return this.breed;
 	}
 
 	@Override
-	public String viewWeight() {
-		return "12 kg";
+	public void setAccessories(Accessories accessories) {
+		this.accesories = accessories;
 	}
+
+	@Override
+	public Accessories getAccessories() {
+		return this.accesories;
+	}
+
 
 }

@@ -1,5 +1,5 @@
 package model.accessories;
 
-public class Accessories {
+public abstract class Accessories {
 
 }
