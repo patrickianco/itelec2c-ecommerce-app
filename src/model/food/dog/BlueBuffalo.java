@@ -6,20 +6,17 @@ public class BlueBuffalo extends Food {
 
 	@Override
 	public String viewPrice() {
-		// TODO Auto-generated method stub
-		return null;
+		return "4000 Pesos";
 	}
 
 	@Override
 	public String viewBrand() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Blue Buffalo";
 	}
 
 	@Override
 	public String viewDescription() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Will make your doge bark";
 	}
 
 }

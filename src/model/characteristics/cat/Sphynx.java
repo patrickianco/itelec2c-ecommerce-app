@@ -6,38 +6,32 @@ public class Sphynx extends Characteristics {
 
 	@Override
 	public String viewPrice() {
-		// TODO Auto-generated method stub
-		return null;
+		return "40,000 Pesos";
 	}
 
 	@Override
 	public String viewBreed() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Sphynx";
 	}
 
 	@Override
 	public String viewBirthday() {
-		// TODO Auto-generated method stub
-		return null;
+		return "12/29/2010";
 	}
 
 	@Override
 	public String viewColor() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Brown";
 	}
 
 	@Override
 	public String viewGender() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Male";
 	}
 
 	@Override
 	public String viewWieght() {
-		// TODO Auto-generated method stub
-		return null;
+		return "25kg";
 	}
 
 }

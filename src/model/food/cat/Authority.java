@@ -6,20 +6,17 @@ public class Authority extends Food {
 
 	@Override
 	public String viewPrice() {
-		// TODO Auto-generated method stub
-		return null;
+		return "5000 Pesos";
 	}
 
 	@Override
 	public String viewBrand() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Authority";
 	}
 
 	@Override
 	public String viewDescription() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Will make your cat prrrrrr";
 	}
 
 }

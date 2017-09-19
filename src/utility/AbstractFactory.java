@@ -7,7 +7,7 @@ import model.food.Food;
 public interface AbstractFactory {
 	
 	Animal getAnimal(String input);
-	Food getAccessories(String input);
-	Characteristics getCharacteristics(String input);
+	Food getFood(String input, Animal animal);
+	Characteristics getCharacteristics(String input, Animal animal);
 	
 }

@@ -6,38 +6,32 @@ public class Labrador extends Characteristics {
 
 	@Override
 	public String viewPrice() {
-		// TODO Auto-generated method stub
-		return null;
+		return "60,000 Pesos";
 	}
 
 	@Override
 	public String viewBreed() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Labrador";
 	}
 
 	@Override
 	public String viewBirthday() {
-		// TODO Auto-generated method stub
-		return null;
+		return "10/01/2011";
 	}
 
 	@Override
 	public String viewColor() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Brown";
 	}
 
 	@Override
 	public String viewGender() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Female";
 	}
 
 	@Override
 	public String viewWieght() {
-		// TODO Auto-generated method stub
-		return null;
+		return "60kg";
 	}
 
 }

@@ -6,38 +6,32 @@ public class Corgi extends Characteristics {
 
 	@Override
 	public String viewPrice() {
-		// TODO Auto-generated method stub
-		return null;
+		return "25,000 Pesos";
 	}
 
 	@Override
 	public String viewBreed() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Corgi";
 	}
 
 	@Override
 	public String viewBirthday() {
-		// TODO Auto-generated method stub
-		return null;
+		return "10/29/2007";
 	}
 
 	@Override
 	public String viewColor() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Gold";
 	}
 
 	@Override
 	public String viewGender() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Male";
 	}
 
 	@Override
 	public String viewWieght() {
-		// TODO Auto-generated method stub
-		return null;
+		return "23kg";
 	}
 
 }

@@ -5,8 +5,8 @@ import model.food.Food;
 
 public class Cat extends Animal {
 	
-	Characteristics breed;
-	Food accesories;
+	Characteristics characteristics;
+	Food food;
 
 	@Override
 	public String viewAnimal() {
@@ -15,22 +15,22 @@ public class Cat extends Animal {
 
 	@Override
 	public void setCharacteristics(Characteristics characteristics) {
-		this.breed = characteristics;
+		this.characteristics = characteristics;
 	}
 
 	@Override
 	public Characteristics getCharacteristics() {
-		return this.breed;
+		return this.characteristics;
 	}
 
 	@Override
-	public void setAccessories(Food accessories) {
-		this.accesories = accessories;
+	public void setFood(Food food) {
+		this.food = food;
 	}
 
 	@Override
-	public Food getAccessories() {
-		return this.accesories;
+	public Food getFood() {
+		return this.food;
 	}
 
 }

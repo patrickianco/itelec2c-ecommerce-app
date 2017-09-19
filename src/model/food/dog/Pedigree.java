@@ -6,20 +6,17 @@ public class Pedigree extends Food {
 
 	@Override
 	public String viewPrice() {
-		// TODO Auto-generated method stub
-		return null;
+		return "1000 Pesos";
 	}
 
 	@Override
 	public String viewBrand() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Pedigree";
 	}
 
 	@Override
 	public String viewDescription() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Will make your dog say such wow";
 	}
 
 }

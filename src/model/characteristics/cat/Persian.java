@@ -6,38 +6,32 @@ public class Persian extends Characteristics {
 
 	@Override
 	public String viewPrice() {
-		// TODO Auto-generated method stub
-		return null;
+		return "20,000 Pesos";
 	}
 
 	@Override
 	public String viewBreed() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Persian";
 	}
 
 	@Override
 	public String viewBirthday() {
-		// TODO Auto-generated method stub
-		return null;
+		return "10/29/2005";
 	}
 
 	@Override
 	public String viewColor() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Gray";
 	}
 
 	@Override
 	public String viewGender() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Male";
 	}
 
 	@Override
 	public String viewWieght() {
-		// TODO Auto-generated method stub
-		return null;
+		return "20kg";
 	}
 
 }

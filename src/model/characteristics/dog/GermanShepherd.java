@@ -6,38 +6,32 @@ public class GermanShepherd extends Characteristics {
 
 	@Override
 	public String viewPrice() {
-		// TODO Auto-generated method stub
-		return null;
+		return "40,000 Pesos";
 	}
 
 	@Override
 	public String viewBreed() {
-		// TODO Auto-generated method stub
-		return null;
+		return "German Shepherd";
 	}
 
 	@Override
 	public String viewBirthday() {
-		// TODO Auto-generated method stub
-		return null;
+		return "08/15/2012";
 	}
 
 	@Override
 	public String viewColor() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Black";
 	}
 
 	@Override
 	public String viewGender() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Male";
 	}
 
 	@Override
 	public String viewWieght() {
-		// TODO Auto-generated method stub
-		return null;
+		return "50kg";
 	}
 
 }

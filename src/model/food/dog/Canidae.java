@@ -6,20 +6,17 @@ public class Canidae extends Food {
 
 	@Override
 	public String viewPrice() {
-		// TODO Auto-generated method stub
-		return null;
+		return "3000 Pesos";
 	}
 
 	@Override
 	public String viewBrand() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Canidae";
 	}
 
 	@Override
 	public String viewDescription() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Will make your doge woof woof";
 	}
 
 }

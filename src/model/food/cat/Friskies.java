@@ -6,20 +6,17 @@ public class Friskies extends Food {
 
 	@Override
 	public String viewPrice() {
-		// TODO Auto-generated method stub
-		return null;
+		return "6000 Pesos";
 	}
 
 	@Override
 	public String viewBrand() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Friskies";
 	}
 
 	@Override
 	public String viewDescription() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Will make your cat happy";
 	}
 
 }
