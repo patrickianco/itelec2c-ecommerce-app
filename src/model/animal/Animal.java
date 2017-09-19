@@ -1,5 +1,9 @@
 package model.animal;
 
-public class Animal {
-
+public abstract class Animal {
+	public abstract String viewPrice();
+	public abstract String viewBreed();
+	public abstract String viewColor();
+	public abstract String viewGender();
+	public abstract String viewWeight();
 }
