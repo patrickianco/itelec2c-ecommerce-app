@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <jsp:useBean id="pet" type="model.animal.Animal" scope="request"/>
+<jsp:useBean id="food" type="model.food.Food" scope="session"/>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -18,9 +19,9 @@
 		<p>Weight: <b><%=pet.getCharacteristics().viewWieght() %></b></p>
 		<p>Price: <b><%=pet.getCharacteristics().viewPrice()%></b></p>
 				
-		<p>Food Brand: <b><%=pet.getFood().viewBrand() %></b></p>
-		<p>Description: <b><%=pet.getFood().viewDescription() %></b></p>
-		<p>Price: <b><%=pet.getFood().viewPrice() %></b></p>
+		<p>Food Brand: <b><%=food.viewBrand() %></b></p>
+		<p>Description: <b><%=food.viewDescription() %></b></p>
+		<p>Price: <b><%=food.viewPrice() %></b></p>
 	
 	<hr/>
 	<form action="index.jsp">

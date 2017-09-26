@@ -8,7 +8,4 @@ public abstract class Animal {
 	public abstract String viewAnimal();
 	public abstract void setCharacteristics(Characteristics characteristics);
 	public abstract Characteristics getCharacteristics();
-	public abstract void setFood(Food food);
-	public abstract Food getFood();
-	
 }

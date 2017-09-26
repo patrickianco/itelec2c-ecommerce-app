@@ -55,7 +55,7 @@ function setBreed(objPet) {
 	<h1>WOOF MEOW</h1>
 	
 	<h2>Select dog or cat</h2>
-	<form action="ProcessPetSelectionServlet" method ="post" id="petForm">
+	<form action="processPetSelection.html" method ="post" id="petForm">
 		<p>Select type of pet</p>
 			<select name="selectedPet" id="selectedPet" onchange="setBreed(this)">
 				<option></option>
